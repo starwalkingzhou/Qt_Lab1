@@ -6,12 +6,31 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>554</width>
-    <height>444</height>
+    <width>397</width>
+    <height>507</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>计算器-周志刚-2022414040243</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	background-color:rgba(50,50,50,100);
+	font-size:24pt;
+	color:white;
+	border-radius:2px;
+}
+QPushButton:hover{
+	background-color:green;
+	color:black
+} 
+QPushButton:pressed{
+	background-color:red;
+	color:black
+} 
+QLineEdit{
+	font-size:48pt;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -369,7 +388,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>554</width>
+     <width>397</width>
      <height>25</height>
     </rect>
    </property>
